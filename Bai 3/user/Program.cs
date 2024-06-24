@@ -3,12 +3,14 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
 using user;
+using user.Models;
 using user.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 var configuration = builder.Configuration;
 var connectionString = configuration.GetConnectionString("DefaultConnection");
 // Add services to the container.
+builder.Services.AddAutoMapper(typeof(UserDto));
 
 builder.Services.AddDbContext<TestDbContext>(options =>
                 options.UseSqlServer(connectionString));

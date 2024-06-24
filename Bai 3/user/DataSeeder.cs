@@ -10,15 +10,15 @@ namespace user
             var passwordHasher = new PasswordHasher<User>();
 
 
-
-            if (context.Users == null)
-            {
+            //if (context.Users == null)
+            //{
                 var userId = Guid.NewGuid();
                 var user = new Entities.User()
                 {
                     Id = userId,
                     Name = "Phu",
-                    Phont = "admin@gmail.com.vn",
+                    Email = "admin@gmail.com.vn",
+                    Phone="0909090909",
                     Avatar = "avatar.org",
                     Gender = true,
                     CreatedAt = DateTime.Now,
@@ -28,7 +28,7 @@ namespace user
                 await context.Users.AddAsync(user);
 
                 await context.SaveChangesAsync();
-            }
+            //}
         }
     }
 }

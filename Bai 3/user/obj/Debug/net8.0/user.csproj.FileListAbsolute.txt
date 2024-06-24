@@ -141,3 +141,5 @@ C:\Users\T14\Desktop\TEST\Bai 3\user\obj\Debug\net8.0\user.pdb
 C:\Users\T14\Desktop\TEST\Bai 3\user\obj\Debug\net8.0\user.genruntimeconfig.cache
 C:\Users\T14\Desktop\TEST\Bai 3\user\obj\Debug\net8.0\ref\user.dll
 C:\Users\T14\Desktop\TEST\Bai 3\user\obj\Debug\net8.0\user.sourcelink.json
+C:\Users\T14\Desktop\TEST\Bai 3\user\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\T14\Desktop\TEST\Bai 3\user\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
