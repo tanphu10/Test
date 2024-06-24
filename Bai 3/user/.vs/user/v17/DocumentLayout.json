@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\repositories\\repouser\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:repositories\\repouser\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\repositories\\repouser\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:repositories\\repouser\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\migrationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:migrationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|solutionrelative:models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71001A86-A92B-4FC9-B73B-A9ABE6FDCC23}|user.csproj|c:\\users\\t14\\desktop\\test\\bai 3\\user\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,11 +50,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwDgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:39:31.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Repositories\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:38:50.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\RepoUser\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoUser\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\RepoUser\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoUser\\UserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:45:53.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\RepoUser\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepoUser\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\RepoUser\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\RepoUser\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:45:13.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "DataSeeder.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\DataSeeder.cs",
+              "RelativeToolTip": "DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:28:20.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:37:13.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:33:07.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MigrationManager.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\MigrationManager.cs",
+              "RelativeDocumentMoniker": "MigrationManager.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\MigrationManager.cs",
+              "RelativeToolTip": "MigrationManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:32:36.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Models\\UserDto.cs",
+              "RelativeDocumentMoniker": "Models\\UserDto.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Models\\UserDto.cs",
+              "RelativeToolTip": "Models\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T09:30:04.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Entities\\User.cs",
@@ -34,34 +179,7 @@
               "RelativeToolTip": "Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:15:56.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TestDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\TestDbContext.cs",
-              "RelativeDocumentMoniker": "TestDbContext.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\TestDbContext.cs",
-              "RelativeToolTip": "TestDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T09:13:20.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\TEST\\Bai 3\\user\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T08:39:31.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T09:15:56.868Z"
             }
           ]
         },

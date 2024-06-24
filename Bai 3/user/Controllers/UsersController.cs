@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using user.Entities;
 using user.Models;
+using user.Repositories;
 
 namespace user.Controllers
 {
@@ -11,31 +12,51 @@ namespace user.Controllers
     [ApiController]
     public class UsersController : ControllerBase
     {
+        private readonly IUnitOfWork _unitOfWork;
         private readonly TestDbContext _context;
-        public UsersController(TestDbContext context)
+        public UsersController(IUnitOfWork unitOfWork)
         {
-            _context = context;
+            _unitOfWork = unitOfWork;
         }
         [HttpPost]
-        public async Task<IActionResult> CreateUserAsync([FromBody] CreateUser model)
+        public async Task<IActionResult> CreateUserAsync([FromBody] User model)
         {
-
-            var result = await _context.AddAsync(model);
+            _unitOfWork.Users.Add(model);
             return Ok();
         }
-        //[HttpGet]
-        //public async Task<List<User>> GetAll()
-        //{
-        //    var user = await _context.Find();
-        //    return Ok(user);
-        //}
-        //[HttpDelete]
-        //public async Task<IActionResult> DeleteAsync([FromQuery] Guid Id)
-        //{
-          
-        //    var result = await _context.d();
-        //    return result > 0 ? Ok() : BadRequest();
-        //}
+        [HttpGet]
+        public async Task<ActionResult<List<User>>> GetAll()
+        {
+            var result = await _unitOfWork.Users.GetAllAsync();
+            return Ok(result);
+        }
+        [HttpGet("user/{userid}")]
+        public async Task<ActionResult<User>> GetUserId(Guid userid)
+        {
+            var data = await _unitOfWork.Users.GetByIdAsync(userid);
+            return Ok(data);
+        }
+        [HttpDelete]
+        public async Task<IActionResult> DeleteAsync([FromBody] Guid[] ids)
+        {
+            foreach (var id in ids)
+            {
+                var location = await _unitOfWork.Users.GetByIdAsync(id);
+                if (location == null) return NotFound();
+                _unitOfWork.Users.Remove(location);
+
+            }
+            var result = await _unitOfWork.CompleteAsync();
+            return result > 0 ? Ok() : BadRequest();
+        }
+        [HttpPut]
+        public async Task<IActionResult> UpdateUser(Guid id, [FromBody] User model)
+        {
+            var user = await _unitOfWork.Users.GetByIdAsync(id);
+            if (user == null) return NotFound();
+            var result = await _unitOfWork.CompleteAsync();
+            return result > 0 ? Ok() : BadRequest();
+        }
 
     }
 }
